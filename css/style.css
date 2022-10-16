@@ -1,3 +1,12 @@
+:root {
+    --color-light-max: #CDCCCF;
+    --color-light: #BABBBD;
+    --color-light-min: #30363D;
+    --color-gray-min: #21262D;
+    --color-gray: #161B22;
+    --color-gray-max: #0D1117;
+}
+
 * {
     font-family: "Ubuntu";
 }
