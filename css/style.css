@@ -18,8 +18,30 @@ body {
     background-color: var(--color-dark-max);
 }
 
+.name {
+    color: var(--color-blue);
+}
+
 .username {
     font-family: "Nunito";
     font-size: x-large;
+    color: var(--color-blue);
 }
 
+.trybe {
+    font-size: large;
+    font-weight: bold;
+    color: var(--color-green);
+}
+
+.most-important {
+    font-size: x-large;
+}
+
+.important {
+    font-size: larger;
+}
+
+.normal {
+    font-size: large;
+}
