@@ -5,6 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;1,200;1,300&family=Ubuntu:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
     <title>Portfólio de algoritmocpp</title>
 </head>
 
@@ -12,7 +18,7 @@
 
     <header>
         <img src="img/cat-profile.jpeg" alt="foto de gato com óculos">
-        <span>&lt; algoritmocpp &#47; &gt;</span>
+        <span class="username">&lt; algoritmocpp &#47; &gt;</span>
         <span>Seja bem vindo(a) ao meu Portfólio</span>
         <nav>
             <a href="#profile-photo">Quem eu sou?</a>
@@ -24,13 +30,15 @@
     <div>
         <article>
             <section>
-                <h3>Olá, eu me chamo Pedro Henrique Dias Sousa, venha me conhecer melhor</h3>
+                <h3>Olá, eu me chamo <b class="name">Pedro Henrique Dias Sousa</b>, venha me conhecer melhor</h3>
                 <img id="profile-photo" src="img/profile.jpg" alt="Foto de um homem de óculos">
                 <p>Primeiramente eu gostaria de agradecer pelo seu tempo e pedir para que se sinta à vontade para me
                     mandar sugestões para melhorar meu portifólio.
                 </p>
                 <p>
-                    Sou um aluno da Trybe com um sonho de ser um ótimo profissional futuramente, acredito que fiz um
+                    Sou um aluno da <span class="trybe">Trybe</span> com um sonho de ser um ótimo profissional
+                    futuramente, acredito
+                    que fiz um
                     ótimo investimento. Desde pequeno sempre gostei de qualquer coisa relacionado a computadores, hoje
                     eu continuo assim mas com foco em aprender Desenvolvimento Web, sou uma pessoa bem discreta na
                     maioria do tempo, porém eu gosto de passar bastante tempo com amigos e jogando, sou aberto à
@@ -41,17 +49,19 @@
             <section id="habilidades">
                 <h3>Minhas habilidades</h3>
                 <ul>
-                    <li>Hard Skills</li>
+                    <li>
+                        <h4>Hard Skills</h4>
+                    </li>
                     <ul>
-                        <li><i>Unix & Bash</i></li>
-                        <li><i>Git & Github</i></li>
-                        <li><i>HTML & CSS</i></li>
+                        <li class="most-important"><i>Unix & Bash</i></li>
+                        <li class="important"><i>Git & Github</i></li>
+                        <li class="normal"><i>HTML & CSS</i></li>
                     </ul>
                     <li>Soft Skills</li>
                     <ul>
-                        <li>Criatividade</li>
-                        <li>Transparência</li>
-                        <li>Curiosidade & Proatividade</li>
+                        <li class="most-important">Criatividade</li>
+                        <li class="important">Transparência</li>
+                        <li class="normal">Curiosidade & Proatividade</li>
                     </ul>
                 </ul>
             </section>

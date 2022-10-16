@@ -1,0 +1,47 @@
+:root {
+    --color-light-max: #CDCCCF;
+    --color-light: #BABBBD;
+    --color-light-min: #30363D;
+    --color-dark-min: #21262D;
+    --color-dark: #161B22;
+    --color-dark-max: #0D1117;
+    --color-green: #3FB950;
+    --color-blue: #3D71AC;
+}
+
+* {
+    font-family: "Ubuntu";
+    color: var(--color-light-max);
+}
+
+body {
+    background-color: var(--color-dark-max);
+}
+
+.name {
+    color: var(--color-blue);
+}
+
+.username {
+    font-family: "Nunito";
+    font-size: x-large;
+    color: var(--color-blue);
+}
+
+.trybe {
+    font-size: large;
+    font-weight: bold;
+    color: var(--color-green);
+}
+
+.most-important {
+    font-size: x-large;
+}
+
+.important {
+    font-size: larger;
+}
+
+.normal {
+    font-size: large;
+}
