@@ -54,6 +54,11 @@ body {
 /* Layout */
 
 .container {
-    max-width: 90%;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.large-container {
+    max-width: 95%;
     margin: 0 auto;
 }
