@@ -48,7 +48,9 @@ body {
 /* Layout */
 
 .clear-float {
+    content: "";
     clear: both;
+    display: table;
 }
 
 .container {
