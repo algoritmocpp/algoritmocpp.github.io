@@ -1,3 +1,4 @@
+/* Variáveis */
 :root {
     --color-light-max: #CDCCCF;
     --color-light: #BABBBD;
@@ -9,10 +10,14 @@
     --color-blue: #3D71AC;
 }
 
+/* Redefinição de propriedades */
+
 * {
     font-family: "Ubuntu";
     color: var(--color-light-max);
 }
+
+/* Corpo e Texto */
 
 body {
     background-color: var(--color-dark-max);
@@ -44,4 +49,11 @@ body {
 
 .normal {
     font-size: large;
+}
+
+/* Layout */
+
+.container {
+    max-width: 90%;
+    margin: 0 auto;
 }
