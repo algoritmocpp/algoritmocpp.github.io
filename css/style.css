@@ -15,6 +15,13 @@
 * {
     font-family: "Ubuntu";
     color: var(--color-light-max);
+    margin: 0;
+    padding: 0;
+}
+
+/* Cabeçalho */
+header {
+    background-color: var(--color-dark-min);
 }
 
 /* Corpo e Texto */
