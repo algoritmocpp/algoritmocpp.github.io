@@ -54,9 +54,10 @@ header {
     color: var(--color-blue);
 }
 
-nav a {
-    margin-right: 16px;
-    line-height: 20px;
+.header-link {
+    margin: 8px;
+    text-decoration: none;
+    font-weight: 600;
 }
 
 .icone {
@@ -65,7 +66,10 @@ nav a {
 }
 
 .welcome-phrase {
-    flex: 1;
+    position: absolute;
+    text-align: right;
+    margin: 8px;
+    right: 48px;
 }
 
 /* Corpo e Texto */
