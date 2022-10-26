@@ -1,47 +1,143 @@
+/* Variáveis */
+
 :root {
-    --color-light-max: #CDCCCF;
-    --color-light: #BABBBD;
-    --color-light-min: #30363D;
-    --color-dark-min: #21262D;
-    --color-dark: #161B22;
-    --color-dark-max: #0D1117;
-    --color-green: #3FB950;
-    --color-blue: #3D71AC;
+  --color-light-max: #cdcccf;
+  --color-light: #babbbd;
+  --color-light-min: #30363d;
+  --color-dark-min: #21262d;
+  --color-dark: #161b22;
+  --color-dark-max: #0d1117;
+  --color-green: #3fb950;
+  --color-blue: #3d71ac;
 }
+
+/* Redefinição de propriedades */
 
 * {
-    font-family: "Ubuntu";
-    color: var(--color-light-max);
+  font-family: "Ubuntu";
+  color: var(--color-light-max);
+  margin: 0;
+  padding: 0;
 }
 
-body {
-    background-color: var(--color-dark-max);
+/* Layout */
+
+.float-clear {
+  content: "";
+  clear: both;
 }
 
-.name {
-    color: var(--color-blue);
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.large-flex-container {
+  display: flex;
+  max-width: 95%;
+  margin: 0 auto;
+}
+
+/* Cabeçalho */
+
+header {
+  background-color: var(--color-dark);
+  padding: 16px 48px 16px 48px;
+  display: flex;
+  height: auto;
 }
 
 .username {
-    font-family: "Nunito";
-    font-size: x-large;
-    color: var(--color-blue);
+  margin-right: 16px;
+  margin-left: 16px;
+  vertical-align: middle;
+  font-family: "Nunito";
+  font-size: x-large;
+  color: var(--color-blue);
+}
+
+.header-link {
+  margin: 8px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.icone {
+  height: 32px;
+  border-radius: 48px;
+}
+
+/* Corpo e Texto */
+
+body {
+  background-color: var(--color-dark-max);
+}
+
+section {
+  margin-top: 20px;
+}
+
+.name {
+  color: var(--color-blue);
 }
 
 .trybe {
-    font-size: large;
-    font-weight: bold;
-    color: var(--color-green);
+  font-size: large;
+  font-weight: bold;
+  color: var(--color-green);
 }
 
 .most-important {
-    font-size: x-large;
+  font-size: 20px;
 }
 
 .important {
-    font-size: larger;
+  font-size: 18px;
 }
 
 .normal {
-    font-size: large;
+  font-size: 16px;
+}
+
+/* Minha foto e descrição */
+
+.welcome-phrase {
+  margin: 10px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.profile-photo {
+  float: left;
+  border-radius: 20px;
+  background-color: var(--color-dark);
+  padding: 20px;
+  margin: 20px;
+  width: 30%;
+}
+
+.descricao {
+  text-align: justify;
+  margin: 20px;
+  margin-top: 50px;
+}
+
+.descricao p {
+  margin-top: 20px;
+}
+
+/* Listas */
+
+ul li {
+  margin-top: 10px;
+  margin-left: 50px;
+}
+
+/* Rodapé */
+
+footer {
+  margin-top: 30px;
+  padding: 20px;
+  text-align: right;
+  background-color: var(--color-dark);
 }

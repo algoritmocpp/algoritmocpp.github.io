@@ -2,84 +2,98 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;1,200;1,300&family=Ubuntu:wght@300&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Portfólio de algoritmocpp</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;1,200;1,300&family=Ubuntu:wght@300&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Portfólio de algoritmocpp</title>
 </head>
 
 <body>
 
-    <header>
-        <img src="img/cat-profile.jpeg" alt="foto de gato com óculos">
-        <span class="username">&lt; algoritmocpp &#47; &gt;</span>
-        <span>Seja bem vindo(a) ao meu Portfólio</span>
-        <nav>
-            <a href="#profile-photo">Quem eu sou?</a>
-            <a href="#habilidades">Habilidades</a>
-            <a href="#passatempos">Hobbies e Passatempos</a>
-        </nav>
-    </header>
+  <header>
+    <img class="icone" src="img/cat-profile.jpeg" alt="foto de gato com óculos">
+    <p class="username">
+      &lt;algoritmocpp&#47;&gt;
+    </p>
+    <a class="header-link" href="#profile_photo">Quem eu sou?</a>
+    <a class="header-link" href="#habilidades">Habilidades</a>
+    <a class="header-link" href="#passatempos">Hobbies e Passatempos</a>
+  </header>
 
-    <div>
-        <article>
-            <section>
-                <h3>Olá, eu me chamo <b class="name">Pedro Henrique Dias Sousa</b>, venha me conhecer melhor</h3>
-                <img id="profile-photo" src="img/profile.jpg" alt="Foto de um homem de óculos">
-                <p>Primeiramente eu gostaria de agradecer pelo seu tempo e pedir para que se sinta à vontade para me
-                    mandar sugestões para melhorar meu portifólio.
-                </p>
-                <p>
-                    Sou um aluno da <span class="trybe">Trybe</span> com um sonho de ser um ótimo profissional
-                    futuramente, acredito
-                    que fiz um
-                    ótimo investimento. Desde pequeno sempre gostei de qualquer coisa relacionado a computadores, hoje
-                    eu continuo assim mas com foco em aprender Desenvolvimento Web, sou uma pessoa bem discreta na
-                    maioria do tempo, porém eu gosto de passar bastante tempo com amigos e jogando, sou aberto à
-                    discutir diversos tipos de idéias e fazer hipóteses para coisas diferentes, levando em conta que é
-                    só por diversão. Gosto muito de ouvir rock e metal, mas também gosto de variar às vezes.
-                </p>
-            </section>
-            <section id="habilidades">
-                <h3>Minhas habilidades</h3>
-                <ul>
-                    <li>
-                        <h4>Hard Skills</h4>
-                    </li>
-                    <ul>
-                        <li class="most-important"><i>Unix & Bash</i></li>
-                        <li class="important"><i>Git & Github</i></li>
-                        <li class="normal"><i>HTML & CSS</i></li>
-                    </ul>
-                    <li>Soft Skills</li>
-                    <ul>
-                        <li class="most-important">Criatividade</li>
-                        <li class="important">Transparência</li>
-                        <li class="normal">Curiosidade & Proatividade</li>
-                    </ul>
-                </ul>
-            </section>
-            <section id="passatempos">
-                <h3>Hobbies e passatempos</h3>
-                <ul>
-                    <li>Criar qualquer coisa, tudo que seja livre pra fazer o que quiser da forma que quiser.</li>
-                    <li>Ler blogs de tecnologia. Minha indicação de blog é o <a href="https://hackr.io/blog"
-                            target="_blank">Hackr.io</a>
-                    </li>
-                    <li>Gosto de jogar alguns jogos de RPG, pode ser de mesa ou no computador mesmo.</li>
-                    <li>As vezes tiro um tempo para fazer coisas aleatórias que nunca fiz antes sem nenhum compromisso,
-                        isso ajuda aliviar o estresse.</li>
-                </ul>
-            </section>
-        </article>
+  <div class="container">
+    <div class="welcome-phrase">
+      <h3>Me chamo <b class="name">Pedro Henrique Dias Sousa</b>, Seja bem vindo(a) ao meu Portfólio!</h3>
     </div>
 
+    <div>
+      <img class="profile-photo" id="profile_photo" src="img/profile.jpg" alt="Foto de um homem de óculos">
+    </div>
+
+    <div class="descricao">
+      <p>Primeiramente eu gostaria de agradecer pelo seu tempo e pedir para que se sinta à vontade para me
+        mandar sugestões para melhorar meu portifólio.
+      </p>
+      <p>
+        Sou um aluno da <span class="trybe">Trybe</span> com um sonho de ser um ótimo profissional
+        futuramente, acredito
+        que fiz um
+        ótimo investimento. Desde pequeno sempre gostei de qualquer coisa relacionado a computadores, hoje
+        eu continuo assim mas com foco em aprender Desenvolvimento Web, sou uma pessoa bem discreta na
+        maioria do tempo, porém eu gosto de passar bastante tempo com amigos e jogando, sou aberto à
+        discutir diversos tipos de idéias e fazer hipóteses para coisas diferentes, levando em conta que é
+        só por diversão. Gosto muito de ouvir rock e metal, mas também gosto de variar às vezes.
+      </p>
+    </div>
+
+    <div class="float-clear"></div>
+
+    <article>
+      <section id="habilidades">
+        <h3>Minhas habilidades</h3>
+        <ul>
+          <li>
+            <h4>Hard Skills</h4>
+            <ul>
+              <li class="most-important"><i>Unix & Bash</i></li>
+              <li class="important"><i>Git & Github</i></li>
+              <li class="normal"><i>HTML & CSS</i></li>
+            </ul>
+          </li>
+
+          <li>
+            <h4>Soft Skills</h4>
+            <ul>
+              <li class="most-important">Criatividade</li>
+              <li class="important">Transparência</li>
+              <li class="normal">Curiosidade & Proatividade</li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+      <section id="passatempos">
+        <h3>Hobbies e passatempos</h3>
+        <ul>
+          <li>Criar qualquer coisa, tudo que seja livre pra fazer o que quiser da forma que quiser.</li>
+          <li>Ler blogs de tecnologia. Minha indicação de blog é o <a href="https://hackr.io/blog"
+              target="_blank">Hackr.io</a>
+          </li>
+          <li>Gosto de jogar alguns jogos de RPG, pode ser de mesa ou no computador mesmo.</li>
+          <li>As vezes tiro um tempo para fazer coisas aleatórias que nunca fiz antes sem nenhum compromisso,
+            isso ajuda aliviar o estresse.</li>
+        </ul>
+      </section>
+    </article>
+  </div>
+
+  <footer>
+    <p>Todos os direitos reservados à <b class="name">Pedro Henrique Dias Sousa</b></p>
+  </footer>
 </body>
 
 </html>
