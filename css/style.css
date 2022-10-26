@@ -123,3 +123,10 @@ section {
 .descricao p {
   margin-top: 20px;
 }
+
+/* Listas */
+
+ul li {
+  margin-top: 10px;
+  margin-left: 50px;
+}
