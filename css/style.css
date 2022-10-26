@@ -78,6 +78,10 @@ body {
     background-color: var(--color-dark-max);
 }
 
+section {
+    margin-top: 20px;
+}
+
 .name {
     color: var(--color-blue);
 }
