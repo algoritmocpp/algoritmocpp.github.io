@@ -110,6 +110,8 @@ section {
 .profile-photo {
   float: left;
   border-radius: 20px;
+  background-color: var(--color-dark);
+  padding: 20px;
   margin: 20px;
   width: 30%;
 }
