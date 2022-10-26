@@ -21,7 +21,7 @@
 
 /* Layout */
 
-.clear-float::after {
+.float-clear {
     content: "";
     clear: both;
 }
@@ -65,13 +65,6 @@ header {
     border-radius: 48px;
 }
 
-.welcome-phrase {
-    position: absolute;
-    text-align: right;
-    margin: 8px;
-    right: 48px;
-}
-
 /* Corpo e Texto */
 
 body {
@@ -102,4 +95,27 @@ section {
 
 .normal {
     font-size: large;
+}
+
+/* Minha foto e descrição */
+
+.welcome-phrase {
+    margin: 10px;
+    margin-top: 30px;
+}
+
+.profile-photo {
+    float: left;
+    border-radius: 20px;
+    margin: 20px;
+    width: 30%;
+}
+
+.descricao {
+    text-align: justify;
+    margin: 20px;
+}
+
+.descricao p {
+    margin-top: 20px;
 }
